@@ -27,8 +27,7 @@ h1 {
 	color: #636f6d;
 }
 
-<<<<<<< HEAD
-=======
+
 h2 {
 	font-size: 1rem;
 }
@@ -38,7 +37,6 @@ ul {
 	text-align: left;
 }
 
->>>>>>> gh-pages
 #container #my-story #web-dev #marketing #values #contact {
 	display: block;
 	position: relative;
@@ -54,22 +52,19 @@ ul {
 #me-photo {
 	margin: 0 auto;
 	display: block;
-<<<<<<< HEAD
-	padding-top: 100px;
-=======
 
->>>>>>> gh-pages
+	padding-top: 100px;
+
 	width: 20%;
 	height: 20%;
 }
 
-<<<<<<< HEAD
-=======
+
 #logo {
 	padding-top: 50px;
 }
 
->>>>>>> gh-pages
+
 #header {
 	background-image: url('congruent_pentagon.png');
 	background-size: contain;
@@ -91,10 +86,8 @@ ul {
 	padding-right: 20px;
 	padding-bottom: 30px;
 	font-size: 2rem;
-<<<<<<< HEAD
-=======
 	text-align: left;
->>>>>>> gh-pages
+
 }
 
 #nav-right {
@@ -102,11 +95,11 @@ ul {
 	padding-top: 20px;
 	padding-bottom: 30px;
 	font-size: 2rem;
-<<<<<<< HEAD
+
 }
 
 #my-story {
-=======
+
 	text-align: left;
 }
 
@@ -142,45 +135,33 @@ ul {
 #my-story {
 	text-align: center;
 	position: relative;
->>>>>>> gh-pages
 	min-height: 200px;
 	clear: both;
 }
 
 #web-dev {
-<<<<<<< HEAD
-=======
+
 	text-align: center;
 	position: relative;
->>>>>>> gh-pages
 	min-height: 200px;
 }
 
 #marketing {
-<<<<<<< HEAD
-	
-=======
+
 	text-align: center;
 	position: relative;
->>>>>>> gh-pages
 	min-height: 200px;
 }
 
 #values {
-<<<<<<< HEAD
-=======
+
 	text-align: center;
 	position: relative;
->>>>>>> gh-pages
 	min-height: 200px;
 }
 
 #contact {
-<<<<<<< HEAD
-	
-=======
 	text-align: center;
 	position: relative;
->>>>>>> gh-pages
 	min-height: 200px;
 }
