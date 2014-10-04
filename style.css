@@ -1,0 +1,101 @@
+* {
+	font-family: Helvetica;
+}
+body {
+	margin: 0px;
+}
+
+
+#container p {
+	margin: 0;
+}
+
+#header {
+	background: url(yosemite.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#yosemite {
+background-position: center;
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+position: absolute;s
+}
+
+
+
+#nav {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#nav
+ li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	float: left;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+#nav li a {
+	font-color: white;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#nav li a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#nav li a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+#about-me {
+	width: 100%;
+	height: 300px;
+	background-color: red;
+}
+
+#work{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	position: relative;
+}
+
+#contact {
+	width: 100%;
+	height: 300px;
+	background-color: red;
+	position: relative;
+}
+
+footer {
+	width: 100%;
+	height: 175px;
+	background-color: rgb(181,179,186);
+}
