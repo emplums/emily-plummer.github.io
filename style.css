@@ -33,10 +33,12 @@ h2 {
 }
 
 ul {
-	list-style: none;
 	text-align: left;
 }
 
+.sub-headline {
+	margin-bottom: 15px;
+}
 #container #my-story #web-dev #marketing #values #contact {
 	display: block;
 	position: relative;
@@ -49,36 +51,81 @@ ul {
 	margin: 0 auto;
 }
 
+
+.odd {
+
+	padding: 15px;
+}
+
+.even {
+	padding: 20px;
+	background-image: url('bg-8-full.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+.col-1 {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-top: 20px;
+	padding-top: 15px;
+}
+
+
+.col-2 {
+	display: inline-block;
+	border: 2px solid white;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 20px 30px;
+	margin-left: 60px;
+	padding: 15px 10px;
+	height: 200px;
+	width: 15%;
+	vertical-align: baseline;
+}
+
+.even .col-2 {
+	border: 2px solid #636f6d;
+
+}
+
+.even .col-2 li a{
+	color: #636f6d;
+}
+
+
+/*-----Starter Header Section---*/
+#header {
+	background-image: url('congruent_outline.png');
+	background-size: contain;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	min-height: 200px;
+	overflow: hidden;
+	text-align: center;
+	height: 600px;
+
+}
+
 #me-photo {
 	margin: 0 auto;
 	display: block;
-
-	padding-top: 100px;
 	width: 20%;
 	height: 20%;
 }
 
 
 #logo {
-	padding-top: 50px;
+	padding-top: 80px;
+	display: block;
+	margin-left: 25%
 }
 
-
-#header {
-	background-image: url('congruent_pentagon.png');
-	background-size: contain;
-	background-repeat: repeat;
-	min-height: 200px;
-	overflow: hidden;
-	text-align: center;
-
-}
-
-.odd {
-	background-image: url('texture.png');
-	background-size: contain;
-	background-repeat: repeat;
-}
 #nav-left {
 	display: inline-block;
 	padding-top: 20px;
@@ -97,38 +144,25 @@ ul {
 
 }
 
-#my-story {
-
-	text-align: left;
+#arrow {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	text-align: center;
 }
 
+#arrow-div {
+	text-align: center;
+}
 
-.col-1 {
+/*----My Story----*/
+
+.story {
 	display: inline-block;
-	margin-right: 60px;
-}
-
-.col-2 {
-	display: inline-block;
-	border: 2px solid white;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	margin: 20px 30px;
-	margin-left: 60px;
-	padding: 15px 10px;
-	height: 200px;
-	width: 15%;
-}
-
-
-.even .col-2 {
-	border: 2px solid #636f6d;
-
-}
-
-.even .col-2 li a{
-	color: #636f6d;
+	width: 46%;
+	vertical-align: top;
+	margin-top: 20px;
+	padding-top: 15px;
 }
 
 #my-story {
@@ -138,13 +172,34 @@ ul {
 	clear: both;
 }
 
+
+/*---- Experience ----- */
+
+#experience {
+display: inline-block;
+margin: 20px 30px;
+margin-left: 60px;
+padding: 15px 10px;
+height: 200px;
+width: 30%;
+}
+
+
+/*--- Web Dev ---- */
+
 #web-dev {
 
 	text-align: center;
 	position: relative;
 	min-height: 200px;
+	color: white;
 }
 
+#web-dev #date {
+	font-size: .75rem;
+}
+
+/*---- Marketing ----- */
 #marketing {
 
 	text-align: center;
@@ -152,6 +207,7 @@ ul {
 	min-height: 200px;
 }
 
+/*---- Values -----*/
 #values {
 
 	text-align: center;
@@ -159,8 +215,18 @@ ul {
 	min-height: 200px;
 }
 
+/*---- Contact ----- */
+
 #contact {
 	text-align: center;
 	position: relative;
 	min-height: 200px;
+}
+
+.contact {
+	display: inline-block;
+	width: 46%;
+	vertical-align: top;
+	margin-top: 20px;
+	padding-top: 15px;
 }
