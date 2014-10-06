@@ -38,6 +38,7 @@ ul {
 
 .sub-headline {
 	margin-bottom: 15px;
+	text-decoration: underline;
 }
 #container #my-story #web-dev #marketing #values #contact {
 	display: block;
@@ -170,6 +171,7 @@ ul {
 	position: relative;
 	min-height: 200px;
 	clear: both;
+	height: 300px;
 }
 
 
@@ -192,11 +194,16 @@ width: 30%;
 	text-align: center;
 	position: relative;
 	min-height: 200px;
+
+}
+
+#web-dev h1 {
 	color: white;
 }
 
 #web-dev #date {
 	font-size: .75rem;
+	margin-bottom: 15px;
 }
 
 /*---- Marketing ----- */
@@ -205,6 +212,7 @@ width: 30%;
 	text-align: center;
 	position: relative;
 	min-height: 200px;
+	padding: 36px;
 }
 
 /*---- Values -----*/
@@ -213,6 +221,10 @@ width: 30%;
 	text-align: center;
 	position: relative;
 	min-height: 200px;
+}
+
+#values h1 {
+	color: white;
 }
 
 /*---- Contact ----- */
@@ -225,8 +237,15 @@ width: 30%;
 
 .contact {
 	display: inline-block;
-	width: 46%;
 	vertical-align: top;
 	margin-top: 20px;
 	padding-top: 15px;
+}
+
+#contact a:link {
+	color: black;
+}
+
+#contact a:hover {
+	color: #636f6d;
 }
