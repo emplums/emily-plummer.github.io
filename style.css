@@ -4,6 +4,15 @@
 	margin: auto 0;
 }
 
+@font-face{ 
+	font-family: 'BebasNeue-webfont';
+	src: url('BebasNeue-webfont.eot');
+	src: url('BebasNeue-webfont.eot?iefix') format('eot'),
+	     url('BebasNeue-webfont.woff') format('woff'),
+	     url('BebasNeue-webfont.ttf') format('truetype'),
+	     url('BebasNeue-webfont.svg#webfont') format('svg');
+}
+
 a:link {
 	text-decoration: none;
 	color: white;
@@ -69,7 +78,7 @@ ul {
 
 .col-1 {
 	display: inline-block;
-	width: 30%;
+	width: 36%;
 	vertical-align: top;
 	margin-top: 20px;
 	padding-top: 15px;
@@ -100,7 +109,23 @@ ul {
 }
 
 
+
+.left {
+display:inline-block;
+}
+
+.right {
+display: inline-block;
+text-align: left;
+}
 /*-----Starter Header Section---*/
+
+#name {
+	font-family: 'BebasNeue-webfont', Arial, sans-serif;
+	color: white;
+	font-size: 8rem;
+	padding-top: 80px;
+}
 #header {
 	background-image: url('congruent_outline.png');
 	background-size: contain;
@@ -120,12 +145,6 @@ ul {
 	height: 20%;
 }
 
-
-#logo {
-	padding-top: 80px;
-	display: block;
-	margin-left: 25%
-}
 
 #nav-left {
 	display: inline-block;
@@ -186,6 +205,9 @@ height: 200px;
 width: 30%;
 }
 
+#marketing-exp {
+	margin-top: 15px;
+}
 
 /*--- Web Dev ---- */
 
@@ -201,9 +223,14 @@ width: 30%;
 	color: white;
 }
 
-#web-dev #date {
+.date {
 	font-size: .75rem;
 	margin-bottom: 15px;
+}
+
+.experience-work li {
+	font-size: .75rem;
+	margin-bottom: 5px;
 }
 
 /*---- Marketing ----- */
@@ -213,6 +240,18 @@ width: 30%;
 	position: relative;
 	min-height: 200px;
 	padding: 36px;
+}
+
+#marketing a:hover {
+	color: #636f6d;
+}
+
+#marketing a:link {
+	color: black;
+}
+
+#marketing a:visited {
+	color: #636f6d;
 }
 
 /*---- Values -----*/
@@ -225,6 +264,19 @@ width: 30%;
 
 #values h1 {
 	color: white;
+}
+
+#values li {
+	margin-bottom: 15px;
+}
+
+#values-2 {
+	display: inline-block;
+	width: 36%;
+	vertical-align: top;
+	margin-top: 20px;
+	padding-top: 15px;
+	margin-left: 37px;
 }
 
 /*---- Contact ----- */
@@ -248,4 +300,13 @@ width: 30%;
 
 #contact a:hover {
 	color: #636f6d;
+}
+
+/*---- Footer ---- */
+
+footer {
+	height: 50px;
+	background-color: #929A99;
+	color: white;
+	padding-left: 15px;
 }
