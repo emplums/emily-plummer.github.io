@@ -118,6 +118,10 @@ display:inline-block;
 display: inline-block;
 text-align: left;
 }
+
+.sub-sub-headline {
+	margin-bottom: 10px;
+}
 /*-----Starter Header Section---*/
 
 #name {
@@ -191,6 +195,7 @@ text-align: left;
 	min-height: 200px;
 	clear: both;
 	height: 300px;
+	line-height: 1.5rem;
 }
 
 
@@ -207,6 +212,10 @@ width: 30%;
 
 #marketing-exp {
 	margin-top: 15px;
+}
+
+ul.experience-work {
+margin-left: 15px;
 }
 
 /*--- Web Dev ---- */
@@ -240,6 +249,10 @@ width: 30%;
 	position: relative;
 	min-height: 200px;
 	padding: 36px;
+}
+
+#marketing ul {
+	margin-left: 15px;
 }
 
 #marketing a:hover {
