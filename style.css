@@ -139,6 +139,8 @@ text-align: left;
 	overflow: hidden;
 	text-align: center;
 	height: 600px;
+	display: table;
+	width: 100%;
 
 }
 
@@ -194,8 +196,8 @@ text-align: left;
 	position: relative;
 	min-height: 200px;
 	clear: both;
-	height: 300px;
 	line-height: 1.5rem;
+	margin: 45px;
 }
 
 
@@ -323,4 +325,39 @@ footer {
 	color: white;
 	padding-left: 15px;
 	padding-top: 15px;
+}
+
+
+@media (max-width: 631px) {
+  #nav-right {
+    display: block;
+    margin-left: 35%;
+    padding-bottom: 0px;
+    width:100%;
+    padding-top: 0px;
+  }
+
+  #nav-left {
+    display: block;
+    margin-left: 35%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+}
+
+
+@media (max-width: 452px) {
+  #nav-right {
+    display: block;
+    margin-left: 15%;
+    padding-bottom: 0px;
+    width:100%;
+
+  }
+
+  #nav-left {
+    display: block;
+    margin-left: 15%;
+    padding-top: 10px;
+  }
 }
