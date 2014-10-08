@@ -190,7 +190,7 @@ text-align: left;
 
 /*----My Story----*/
 
-.story {
+.copy {
 	display: inline-block;
 	width: 46%;
 	vertical-align: top;
@@ -352,7 +352,7 @@ footer {
     padding-bottom: 0px;
   }
 
-  .story{
+  .copy{
   	width: 100%;
   }
 }
