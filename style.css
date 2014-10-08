@@ -142,6 +142,7 @@ text-align: left;
 	display: table;
 	width: 100%;
 
+
 }
 
 #me-photo {
@@ -159,6 +160,7 @@ text-align: left;
 	padding-bottom: 30px;
 	font-size: 2rem;
 	text-align: left;
+	line-height: 2.7rem;
 
 }
 
@@ -167,6 +169,7 @@ text-align: left;
 	padding-top: 20px;
 	padding-bottom: 30px;
 	font-size: 2rem;
+	line-height: 2.7rem;
 
 }
 
@@ -327,7 +330,7 @@ footer {
 	padding-top: 15px;
 }
 
-
+/*--- Media Queries ---- */
 @media (max-width: 631px) {
   #nav-right {
     display: block;
@@ -343,13 +346,17 @@ footer {
     padding-top: 10px;
     padding-bottom: 0px;
   }
+
+  .story{
+  	width: 100%;
+  }
 }
 
 
 @media (max-width: 452px) {
   #nav-right {
     display: block;
-    margin-left: 15%;
+    margin-left: 35%;
     padding-bottom: 0px;
     width:100%;
 
@@ -357,7 +364,7 @@ footer {
 
   #nav-left {
     display: block;
-    margin-left: 15%;
+    margin-left: 35%;
     padding-top: 10px;
   }
 }
