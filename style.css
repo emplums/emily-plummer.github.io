@@ -13,6 +13,7 @@
 	     url('BebasNeue-webfont.svg#webfont') format('svg');
 }
 
+
 a:link {
 	text-decoration: none;
 	color: white;
@@ -24,7 +25,7 @@ a:visited {
 }
 
 a:hover {
-	color: #636f6d;
+	color: #0099CC;
 }
 
 .headline {
@@ -184,6 +185,9 @@ text-align: left;
 	text-align: center;
 }
 
+
+
+
 /*----My Story----*/
 
 .story {
@@ -278,6 +282,7 @@ margin-left: 15px;
 	text-align: center;
 	position: relative;
 	min-height: 200px;
+	line-height: 1.7rem;
 }
 
 #values h1 {
