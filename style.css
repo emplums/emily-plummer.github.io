@@ -13,6 +13,10 @@
 	     url('BebasNeue-webfont.svg#webfont') format('svg');
 }
 
+#my-story,#web-dev,#marketing,#values,#contact {
+	min-height: 300px;
+}
+
 
 a:link {
 	text-decoration: none;
@@ -202,7 +206,6 @@ text-align: left;
 #my-story {
 	text-align: center;
 	position: relative;
-	min-height: 200px;
 	clear: both;
 	line-height: 1.5rem;
 
@@ -234,7 +237,6 @@ margin-left: 15px;
 
 	text-align: center;
 	position: relative;
-	min-height: 200px;
 
 }
 
@@ -257,7 +259,6 @@ margin-left: 15px;
 
 	text-align: center;
 	position: relative;
-	min-height: 200px;
 	padding: 36px;
 }
 
@@ -282,7 +283,6 @@ margin-left: 15px;
 
 	text-align: center;
 	position: relative;
-	min-height: 200px;
 	line-height: 1.7rem;
 }
 
@@ -308,7 +308,6 @@ margin-left: 15px;
 #contact {
 	text-align: center;
 	position: relative;
-	min-height: 200px;
 }
 
 .contact {
