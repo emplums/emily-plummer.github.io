@@ -21,6 +21,8 @@ header a:hover {
 
 #container {
 	width: 100%;
+	margin: 0 auto;
+	min-height:500px;
 }
 
 header {
@@ -108,4 +110,12 @@ header li a {
 .post-title {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+footer {
+	height: 50px;
+	background-color: #929A99;
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
 }
