@@ -83,7 +83,17 @@ header li {
 header li a {
 	padding: 3px;
 }
+ .head-title {
+ 	color: #fff !important;
+ }
 
+ .blog-content {
+ 	width: 85%;
+ 	margin-left: 40px;
+ }
+ a {
+ 	color: black;
+ }
 
 /* end header styling */
 
@@ -91,4 +101,11 @@ header li a {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-top: 50px;
+}
+
+/*--- Blog Posts ----*/
+
+.post-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
