@@ -97,6 +97,9 @@ header li a {
  	color: black;
  }
 
+a:hover {
+	color: #0099CC;
+}
 /* end header styling */
 
 .post {
