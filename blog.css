@@ -3,7 +3,9 @@
 	padding: 0px;
 	margin: auto 0;
 }
-
+p {
+	line-height: 25px;
+}
 header a:link {
 	text-decoration: none;
 	color: white;
@@ -92,6 +94,7 @@ header li a {
  .blog-content {
  	width: 85%;
  	margin-left: 40px;
+ 	margin-bottom: 99px;
  }
  a {
  	color: black;
@@ -122,3 +125,4 @@ footer {
 	padding-left: 15px;
 	padding-top: 15px;
 }
+
