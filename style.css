@@ -38,7 +38,7 @@ a:hover {
 }
 
 .bottom-links{
-	color:black;
+	color:black !important;
 }
 
 h1 {
