@@ -40,6 +40,9 @@ a:hover {
 .bottom-links{
 	color:black !important;
 }
+.bottom-links:hover {
+	color: #0099CC !important;
+}
 
 h1 {
 	color: #636f6d;
