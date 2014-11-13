@@ -1,0 +1,42 @@
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 37px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	color: #8899A7;
+
+}
+#hero {
+	height: 500px;
+	width: 100%;
+	background-image: url('/assets/dropbox-for-business-files.png');
+}
+
+#why-dropbox {
+	height: 600px;
+	width: 100%;
+}
+
+#what-can-dropbox {
+	height: 700px;
+	width: 100%;
+}
+
+#dropbox-video {
+	height: 500px;
+	width: 100%;
+}
+
+#get-your-team {
+	height: 300px;
+	width: 100%;
+}
+

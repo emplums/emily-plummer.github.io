@@ -1,0 +1,73 @@
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 37px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	color: #8899A7;
+
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+/* Hero Styling */
+#hero {
+	background-color: #007EE5;
+	height: 500px;
+	width: 100%;
+}
+
+.layer {
+	background-image: url("assets/dropbox-for-business-files.png");
+	opacity: 0.0;
+	height: 500px;
+	position: absolute;
+	bottom: 0px;
+	display: none;
+	width: 100%;
+
+}
+
+/* Why Dropbox Styling */
+#why-dropbox {
+	height: 600px;
+	width: 100%;
+}
+
+/* What Can Dropbox Do Styling */
+#what-can-dropbox {
+	height: 700px;
+	width: 100%;
+}
+
+
+/* Dropbox Video Styling */
+#dropbox-video {
+	height: 500px;
+	width: 100%;
+}
+
+/* Get Your Team Styling */
+#get-your-team {
+	height: 300px;
+	width: 100%;
+}
+
+
+/* Footer Styling */
+footer {
+	height: 300px;
+	width: 100%;
+}
