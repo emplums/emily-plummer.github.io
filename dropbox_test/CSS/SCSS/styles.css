@@ -440,10 +440,6 @@ footer {
   .mobile-menu {
     visibility: visible; }
     
-    #hero {
-      height: 500px;
-    }
-
   .navButton {
     visibility: hidden; }
 
@@ -453,7 +449,7 @@ footer {
   #why-dropbox .blocks {
     display: block;
     margin: 0 auto;
-    width: 55%; }
+    width: 80%; }
 
   a.button {
     width: 16.523%; }
