@@ -439,7 +439,7 @@ footer {
 @media all and (max-width: 685px) {
   .mobile-menu {
     visibility: visible; }
-    
+
   .navButton {
     visibility: hidden; }
 
@@ -449,7 +449,7 @@ footer {
   #why-dropbox .blocks {
     display: block;
     margin: 0 auto;
-    width: 80%; }
+    width: 55%; }
 
   a.button {
     width: 16.523%; }
@@ -472,5 +472,3 @@ footer {
   #hero {
     padding-right: 10px;
     padding-left: 10px; } }
-
-/*# sourceMappingURL=styles.css.map */
