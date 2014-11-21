@@ -43,7 +43,7 @@ a.button {
 /* Hero Styling */
 #hero {
   background-color: #007EE5;
-  height: 470px;
+  height: auto;
   width: 100%;
   padding-top: 40px;
   position: relative;
@@ -107,6 +107,23 @@ a.button {
       font-size: 15px;
       color: white; }
 
+.mobile-menu {
+  text-align: center;
+  width: 85%;
+  visibility: hidden;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  .mobile-menu ul {
+    list-style: none; }
+  .mobile-menu li {
+    display: inline;
+    margin-right: 10px; }
+  .mobile-menu li a {
+    color: white; }
+  .mobile-menu li a:hover {
+    color: #8899A7; }
+
 /* Why Dropbox Styling */
 #why-dropbox {
   height: auto;
@@ -161,7 +178,7 @@ a.button {
   #what-can-dropbox #slider {
     list-style: none;
     position: relative;
-    width: 100%;
+    width: 96%;
     height: 325px;
     max-width: 540px;
     margin: 0 auto;
@@ -177,17 +194,19 @@ a.button {
   #what-can-dropbox #control-right {
     display: inline;
     top: -150px;
-    left: 30px;
-    position: relative; }
+    left: 50px;
+    position: relative;
+    cursor: pointer; }
   #what-can-dropbox #control-left {
     display: inline;
-    left: -30px;
+    left: -50px;
     top: -150px;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
   #what-can-dropbox #dots {
     list-style: none;
     padding: 0px;
-    padding: 10px;
+    padding-top: 10px;
     text-align: center;
     width: 100%; }
   #what-can-dropbox #dots ul {
@@ -198,12 +217,12 @@ a.button {
     width: 10px;
     height: 10px;
     margin: 0 5px;
-    border: 2px solid #007EE5;
+    border: 3px solid #007EE5;
     background: #007EE5;
     cursor: pointer; }
   #what-can-dropbox #dots li.active {
     background: #8899A7;
-    border: 2px solid #8899A7; }
+    border: 3px solid #8899A7; }
   #what-can-dropbox .button {
     margin-bottom: 60px; }
 
@@ -217,19 +236,18 @@ a.button {
   #dropbox-video h2 {
     position: relative;
     display: inline-block;
-    top: 0;
-    width: 28.523%;
-    left: 45px; }
+    top: 35px;
+    width: 28.523%; }
   #dropbox-video .videoPlayer {
     max-width: 100%;
     width: 100%;
     max-height: 500px; }
   #dropbox-video img.play {
-    display: inline-block;
+    display: block;
     position: relative;
-    top: 135px;
+    top: 85px;
     max-width: 100%;
-    left: -170px; }
+    margin: 0 auto; }
   #dropbox-video .still {
     width: auto;
     height: 100%;
@@ -404,31 +422,142 @@ footer {
     opacity: 1.0; } }
 /* Media Queries */
 @media all and (max-width: 685px) {
+  .mobile-menu {
+    visibility: visible; }
+
+  .navButton {
+    visibility: hidden; }
+
   nav {
     display: none; }
 
   #why-dropbox .blocks {
     display: block;
     margin: 0 auto;
-    width: 55%; } }
-/*.mobile {
-  text-align: left;
+    width: 55%; }
+
+  a.button {
+    width: 16.523%; }
+
+  #what-can-dropbox h2 {
+    width: 65.524%; }
+
+  #what-can-dropbox p {
+    width: 70.524%; }
+
+  #what-can-dropbox a.button {
+    width: 23.524%; }
+
+  #dropbox-video h2 {
+    width: 65.524%; }
+
+  #hero #copy {
+    width: 70.3%; }
+
+  #hero {
+    padding-right: 10px;
+    padding-left: 10px; } }
+/*@media all and (max-width: 320px) {
+  #what-can-dropbox h2 {
+    width: 65.524%;
+  }
+
+  #what-can-dropbox p {
+  width: 70.524%;
+  }
+
+  #what-can-dropbox a.button {
+    width:20.524%;
+  }
+}*/
+/* Mobile Nav */
+/*.mobile-menu {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 7px;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+  cursor: pointer;
+  outline: none;
+}
+
+/*.mobile-menu:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  margin-top: 3px;
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-color: #8aa8bd transparent;
+}*/
+/*.mobile-menu .dropdown {
+  position: absolute;
+  top: 140%;
   left: 0;
+  right: 0;
   background: white;
-  border: 2px solid $blue;
-  border-radius: 2px;
-
-  ul {
-  
+  border-radius: inherit;
+  border: 1px solid rgba(0,0,0,0.17);
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-weight: normal;
+  transition: all 0.5s ease-in;
   list-style: none;
-    position: relative;
-    background: white;
+  pointer-events: none;
 }
 
+.mobile-menu .dropdown li a {
+  float: right;
+  color: inherit;
 }
 
-  .mobile ul li:hover > ul {
-    display: block;
-  }*/
+
+/*.mobile-menu .dropdown li:first-of-type a {
+  border-radius: 7px 7px 0 0;
+}
+
+.mobile-menu .dropdown li:last-of-type a {
+  border-radius: 0 0 7px 7px;
+  border: none;
+}
+
+.mobile-menu .dropdown li:hover a {
+    background: #f3f8f8;
+}
+     
+.mobile-menu .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+ 
+.mobile-menu .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+} 
+
+.mobile-menu.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+*/
 
 /*# sourceMappingURL=styles.css.map */

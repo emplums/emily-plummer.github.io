@@ -1,31 +1,30 @@
+//Animation scrolling trigger
 	$(window).scroll(function() {
 		$('#block-two,#block-one,#block-three').each(function(){
 		var imagePos = $(this).offset().top;
 
 		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
+
+		if($('#block-one').is(':visible')) {
+			if ( $(window).scrollTop() > 200) {
 				$(this).addClass("animate");
 			}
+		}
+
+		else if (imagePos < topOfWindow+400) {
+				$(this).addClass("animate");
+			}
+
 		});
 	});
 
 
-/*$(window).load(function() {
-	$(".layer").slideDown(function(){
-
-	});
-		$(".layer").fadeTo(800, 1.0, function(){
-		
-	});
-
-});*/
-
-
+//Video
 $(window).load(function playVideo(){
 	var video = document.getElementById("videoPlayer");
 	var button = document.getElementById("play")
 $(".play").click(function(){
-	$(".still").hide();
+	$("#dropbox-video").css('background-image', 'none');
 	$(".videoPlayer").fadeIn("slow");
 	$(".play").hide();
 	$("#dropbox-video > h2").hide();
@@ -33,7 +32,7 @@ $(".play").click(function(){
 });
 });
 
-
+//Slideshow
 $(document).ready(function () {
   var change_img_time = 4000,
       transition_speed = 600;
@@ -69,35 +68,58 @@ $(document).ready(function () {
     changeTimeout = setTimeout(function() { moveTo('next'); }, change_img_time);
   };
 
-//Move on click
-
-$(function(){
-    $('.fadein img:gt(0)').hide();
-    $('.control-right').on('click', function(){
-        $('.fadein :first-child').fadeOut()
-           .next('img').fadeIn()
-           .end().appendTo('.fadein');
-    });
-    $('.control-left').on('click', function () {
-        $('.fadein :last-child').fadeIn()
-            .insertBefore($('.fadein :first-child').fadeOut());
-    });
-});
-
   // Event handlers
   $("#dots li").click(function () {
     var i = $('#dots li').index(this);
     moveTo(i);
   });
 
-  $("#prev").click(function () {
+  $("#control-left").click(function () {
     moveTo('prev');
   });
 
-  $("#next").click(function () {
+  $("#control-right").click(function () {
     moveTo('next');
   });
   
   //initialize slider on load
   moveTo('next');
 });
+
+/*Responsive Menu
+function DropDown(el) {
+    this.dd = el;
+    this.placeholder = this.dd.children('span');
+    this.opts = this.dd.find('ul.dropdown > li');
+    this.val = '';
+    this.index = -1;
+    this.initEvents();
+}
+
+DropDown.prototype = {
+    initEvents : function() {
+        var obj = this;
+ 
+        obj.dd.on('click', function(event){
+            $(this).toggleClass('active');
+            return false;
+        });
+ 
+        obj.opts.on('click',function(){
+            var opt = $(this);
+            obj.val = opt.text();
+            obj.index = opt.index();
+            obj.placeholder.text(obj.val);
+        });
+    },
+    getValue : function() {
+        return this.val;
+    },
+    getIndex : function() {
+        return this.index;
+    }
+}*/
+
+
+
+
