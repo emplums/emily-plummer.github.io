@@ -64,7 +64,7 @@ color: $blue;
 	width: 100%;
   padding-top: 40px;
   position: relative;
-  z-index: -10;
+  z-index: 0;
   overflow: hidden;
 
     .layer {
@@ -95,6 +95,11 @@ color: $blue;
         padding: 14px;
         margin-bottom: 20px;
         width: 255px / 1050px * 100%;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background-color: #f0f7fd;
       }
 
     }
@@ -116,6 +121,17 @@ color: $blue;
       color: white;
       display: inline-block;
       margin: 0 auto;
+    }
+
+
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: $light-grey;
+      border-bottom: $light-grey;
     }
 
     #copy {
@@ -224,6 +240,10 @@ color: $blue;
       .button {
         margin-bottom: 40px;
       }
+
+      .button:hover {
+        background-color:#f0f7fd;
+      }
 }
 
 /* What Can Dropbox Do Styling */
@@ -318,6 +338,10 @@ color: $blue;
   .button {
     margin-bottom: 60px;
   }
+
+  .button:hover {
+    background-color: #f0f7fd;
+  }
 }
 
 /* Dropbox Video Styling */
@@ -347,6 +371,7 @@ color: $blue;
       top: 85px;
       max-width: 100%;
       margin: 0 auto;
+      cursor: pointer;
 
     }
 
@@ -384,6 +409,10 @@ video {
         a {
           text-decoration: none;
         }
+    }
+
+    .buttonTwo:hover {
+      background-color: #3398ea;
     }
 
     h2 {
@@ -638,109 +667,3 @@ footer {
   padding-left: 10px;
 }
 }
-
-/*@media all and (max-width: 320px) {
-  #what-can-dropbox h2 {
-    width: 65.524%;
-  }
-
-  #what-can-dropbox p {
-  width: 70.524%;
-  }
-
-  #what-can-dropbox a.button {
-    width:20.524%;
-  }
-}*/
-
-
-/* Mobile Nav */
-/*.mobile-menu {
-  position: relative;
-  width: 200px;
-  margin: 0 auto;
-  padding: 10px;
-  background: #fff;
-  border-radius: 7px;
-  border: 1px solid rgba(0,0,0,0.15);
-  box-shadow: 0 1px 1px rgba(50,50,50,0.1);
-  cursor: pointer;
-  outline: none;
-}
-
-/*.mobile-menu:after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  margin-top: 3px;
-  border-width: 6px 6px 0 6px;
-  border-style: solid;
-  border-color: #8aa8bd transparent;
-}*/
-
-/*.mobile-menu .dropdown {
-  position: absolute;
-  top: 140%;
-  left: 0;
-  right: 0;
-  background: white;
-  border-radius: inherit;
-  border: 1px solid rgba(0,0,0,0.17);
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  font-weight: normal;
-  transition: all 0.5s ease-in;
-  list-style: none;
-  pointer-events: none;
-}
-
-.mobile-menu .dropdown li a {
-  float: right;
-  color: inherit;
-}
-
-
-/*.mobile-menu .dropdown li:first-of-type a {
-  border-radius: 7px 7px 0 0;
-}
-
-.mobile-menu .dropdown li:last-of-type a {
-  border-radius: 0 0 7px 7px;
-  border: none;
-}
-
-.mobile-menu .dropdown li:hover a {
-    background: #f3f8f8;
-}
-     
-.mobile-menu .dropdown:after {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: 100%;
-    right: 15px;
-    border-width: 0 6px 6px 6px;
-    border-style: solid;
-    border-color: #fff transparent;    
-}
- 
-.mobile-menu .dropdown:before {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: 100%;
-    right: 13px;
-    border-width: 0 8px 8px 8px;
-    border-style: solid;
-    border-color: rgba(0,0,0,0.1) transparent;    
-} 
-
-.mobile-menu.active .dropdown {
-    opacity: 1;
-    pointer-events: auto;
-}
-*/
