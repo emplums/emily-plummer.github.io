@@ -209,7 +209,7 @@ color: $blue;
       }
 
       #block-one.animate {
-        opacity: 0;
+        display: none;
         -webkit-animation: slideIn 3s ease-in-out 0s forwards;
         -o-animation: slideIn 3s ease-in-out 0s forwards;
         -moz-animation: slideIn 3s ease-in-out 0s forwards;
@@ -218,7 +218,7 @@ color: $blue;
       }
 
       #block-two.animate {
-        opacity: 0;
+        visibility: hidden;
         -webkit-animation: slideIn 3s ease-in-out 1s forwards;
         -o-animation: slideIn 3s ease-in-out 1s forwards;
         -moz-animation: slideIn 3s ease-in-out 1s forwards;
@@ -226,7 +226,7 @@ color: $blue;
       }
 
       #block-three.animate {
-        opacity: 0;
+        visibility: hidden;
         -webkit-animation: slideIn 3s ease-in-out 2s forwards;
         -o-animation: slideIn 3s ease-in-out 2s forwards;
         -moz-animation: slideIn 3s ease-in-out 2s forwards;

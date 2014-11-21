@@ -8,11 +8,13 @@
 		if($('#block-one').is(':visible')) {
 			if ( $(window).scrollTop() > 200) {
 				$(this).addClass("animate");
+				$(this).show();
 			}
 		}
 
 		else if (imagePos < topOfWindow+400) {
 				$(this).addClass("animate");
+				$(this).show();
 			}
 
 		});
