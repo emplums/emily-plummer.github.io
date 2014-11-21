@@ -439,6 +439,10 @@ footer {
 @media all and (max-device-width: 685px) {
   .mobile-menu {
     visibility: visible; }
+    
+    #hero {
+      height: 500px;
+    }
 
   .navButton {
     visibility: hidden; }
