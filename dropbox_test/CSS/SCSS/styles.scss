@@ -130,7 +130,7 @@ color: $blue;
     }
 
     a:hover {
-      color: $light-grey;
+      color: $dark-grey;
       border-bottom: $light-grey;
     }
 
@@ -149,7 +149,7 @@ color: $blue;
 .desktop {
   text-align: left;
   left: 0;
-  width: 140px;
+  width: 152px;
   position: absolute;
   top: 50px;
   margin-right: 20px;
@@ -187,7 +187,7 @@ color: $blue;
   }
 
   li a:hover {
-    color: $light-grey;
+    color: $dark-grey;
   }
 }
 
