@@ -436,7 +436,7 @@ footer {
     transform: translateY(0%);
     opacity: 1.0; } }
 /* Media Queries */
-@media all and (max-device-width: 685px) {
+@media all and (max-width: 685px) {
   .mobile-menu {
     visibility: visible; }
     
