@@ -313,6 +313,30 @@ footer {
       font-size: 13px;
       line-height: 0%;
       color: #4C545A; }
+    footer ul a:hover {
+      color: #8899A7; }
+  footer #language {
+    float: right;
+    right: 44px;
+    position: relative;
+    width: 75px;
+    height: 32px;
+    top: 15px; }
+  footer #language p:before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    content: "\f0ac";
+    display: inline;
+    margin-right: 5px; }
+  footer #language p:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f106";
+    display: inline;
+    position: relative;
+    left: 5px; }
+  footer #language p {
+    display: inline; }
 
 /* Animations */
 @-webkit-keyframes slideIn {
@@ -472,3 +496,5 @@ footer {
   #hero {
     padding-right: 10px;
     padding-left: 10px; } }
+
+/*# sourceMappingURL=styles.css.map */

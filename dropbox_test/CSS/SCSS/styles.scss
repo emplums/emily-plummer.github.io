@@ -444,7 +444,44 @@ footer {
         line-height: 0%;
         color: $dark-grey;
       }
+  a:hover {
+    color: $light-grey;
   }
+
+      
+  }
+
+  #language {
+        float: right;
+        right: 44px;
+        position: relative;
+        width: 75px;
+        height: 32px;
+        top: 15px;
+      }
+
+     #language p:before {
+        font-family: FontAwesome;
+        font-weight: normal;
+        content: "\f0ac";
+        display: inline;
+        margin-right: 5px;
+
+      }
+
+      #language p:after {
+        font-family: FontAwesome;
+        display:inline-block;
+        content: "\f106";
+        display: inline;
+        position: relative;
+        left: 5px;
+
+      }
+
+      #language p {
+        display: inline;
+      }
 }
 
 /* Animations */
