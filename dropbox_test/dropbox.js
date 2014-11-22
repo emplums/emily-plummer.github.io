@@ -5,7 +5,7 @@
 
 		var topOfWindow = $(window).scrollTop();
 
-		if($('.blocks').is(':visible')) {
+		if($('#block-one').is(':visible')) {
 			if ( $(window).scrollTop() > 200) {
 				$(this).addClass("animate");
 				$(this).show();
