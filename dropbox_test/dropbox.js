@@ -1,5 +1,4 @@
 //Animation scrolling trigger
-//Animation scrolling trigger
 	$(window).scroll(function() {
 		$('#block-two,#block-one,#block-three').each(function(){
 		var imagePos = $(this).offset().top;
@@ -88,14 +87,6 @@ $(document).ready(function () {
   //initialize slider on load
   moveTo('next');
 });
-
-
-        return this.val;
-    },
-    getIndex : function() {
-        return this.index;
-    }
-
 
 
 
