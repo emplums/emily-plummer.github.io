@@ -1,4 +1,5 @@
 //Animation scrolling trigger
+//Animation scrolling trigger
 	$(window).scroll(function() {
 		$('#block-two,#block-one,#block-three').each(function(){
 		var imagePos = $(this).offset().top;
