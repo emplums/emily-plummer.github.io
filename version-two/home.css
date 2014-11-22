@@ -1,0 +1,80 @@
+h1 {
+	font-family: 'Megrim', sans-serif;
+	font-size: 4rem;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+p, li {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	}
+
+
+#container {
+	width: 100%;
+}
+
+header {
+	text-align: center;
+	background-image: url('../utah.jpg');
+	background-size: cover;
+	height:700px;
+	position: relative;
+	-webkit-animation: opacityHeader 2s ease-in forwards;
+}
+
+header #text {
+	position: absolute;
+	color:white;
+	margin-left: 31%;
+	margin-top: 270px;
+	line-height: 2rem;
+}
+
+header p {
+	font-size: 3rem;
+}
+
+
+
+#left {
+	float: left;
+}
+
+#right {
+	float: left;
+	margin-left: 110px;
+}
+
+#right img {
+	max-width: 150px;
+	width: 100%;
+	margin-right: 50px;
+	opacity: 1.0;
+	transition: opacity 0.5s ease;
+	-webkit-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+}
+
+#right img:hover{
+	opacity:0.3;
+}
+
+@-webkit-keyframes opacityHeader {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1.0;
+    }
+
+
