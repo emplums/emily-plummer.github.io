@@ -34,7 +34,7 @@ header {
 
 header #text {
 	position: absolute;
-	color:white;
+	color:black;
 	margin-left: 31%;
 	margin-top: 270px;
 	line-height: 2rem;
