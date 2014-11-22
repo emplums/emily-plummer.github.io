@@ -150,11 +150,13 @@ a.button {
     -moz-animation: slideIn 3s ease-in-out 0s forwards;
     animation: slideIn 3s ease-in-out 0s forwards; }
   #why-dropbox #block-two.animate {
+    display: none;
     -webkit-animation: slideIn 3s ease-in-out 1s forwards;
     -o-animation: slideIn 3s ease-in-out 1s forwards;
     -moz-animation: slideIn 3s ease-in-out 1s forwards;
     animation: slideIn 3s ease-in-out 1s forwards; }
   #why-dropbox #block-three.animate {
+    display: none;
     -webkit-animation: slideIn 3s ease-in-out 2s forwards;
     -o-animation: slideIn 3s ease-in-out 2s forwards;
     -moz-animation: slideIn 3s ease-in-out 2s forwards;
