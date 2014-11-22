@@ -29,7 +29,7 @@ header {
 	background-size: cover;
 	height:700px;
 	position: relative;
-	-webkit-animation: opacityHeader 2s ease-in forwards;
+	-webkit-animation: opacityHeader 2s ease-in 1s forwards;
 }
 
 header #text {
