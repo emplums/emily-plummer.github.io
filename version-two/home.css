@@ -6,7 +6,7 @@ h1 {
 
 h2 {
 	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 p, li {
@@ -17,10 +17,14 @@ body {
 	margin:0px;
 	padding:0px;
 	}
+ul {
+	list-style: none;
+}
 
 
 #container {
 	width: 100%;
+
 }
 
 header {
@@ -47,18 +51,20 @@ header p {
 
 
 #left {
-	float: left;
+	display: inline;
+	text-align: center;
 }
 
 #right {
 	float: left;
-	margin-left: 110px;
+	display:inline;
+	text-align: center;
+	margin-left: 40px;
 }
 
 #right img {
 	max-width: 150px;
 	width: 100%;
-	margin-right: 50px;
 	opacity: 1.0;
 	transition: opacity 0.5s ease;
 	-webkit-transition: opacity 0.5s ease;
@@ -66,8 +72,36 @@ header p {
 	-moz-transition: opacity 0.5s ease;
 }
 
+#right .title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+}
+
+.bc {
+	margin-bottom: 48px;
+}
+
+.shp {
+	margin-bottom: 90px;
+}
+
 #right img:hover{
 	opacity:0.3;
+}
+
+#right div {
+	float: left;
+	display:inline;
+	width: 30%;
+	}
+
+#right ul {
+	text-align: left;
+	list-style: disc;
+}
+
+#right ul li {
+	line-height: 2rem;
 }
 
 @-webkit-keyframes opacityHeader {
