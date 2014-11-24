@@ -79,6 +79,11 @@ header p {
 	width: 100%;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .drop-button {
 border: 2px solid #ebebeb;
 border-radius: 4px;
