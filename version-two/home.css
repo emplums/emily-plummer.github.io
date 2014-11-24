@@ -63,6 +63,7 @@ header p {
 #left {
 	display: block;
 	text-align: center;
+	margin-bottom:40px;
 }
 
 #left ul {
@@ -74,6 +75,7 @@ header p {
 	height: auto;
 	width: 100%;
 	text-align: center;
+	margin-top: 40px;
 }
 
 #right #experience-wrap {
@@ -135,7 +137,6 @@ transition: background-color 1s ease;
 }
 
 
-
 #right ul {
 	text-align: left;
 	list-style: disc;
@@ -150,7 +151,7 @@ transition: background-color 1s ease;
 }
 footer {
 	height: 50px;
-	background-color: #929A99;
+	background-color: #ebebeb;
 	color: white;
 	padding-top: 15px;
 	width: 100%;
