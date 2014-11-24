@@ -9,6 +9,12 @@ h2 {
 	font-weight: 500;
 }
 
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+
 p, li, a {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -35,7 +41,7 @@ ul {
 	width: 100%;
 
 }
-
+/* Header Styling*/
 header {
 	text-align: center;
 	background-image: url('utah1.JPG');
@@ -59,19 +65,19 @@ header p {
 }
 
 
-
-#left {
+/* Skills */
+#skills {
 	display: block;
 	text-align: center;
 	margin-bottom:40px;
 	margin-top:50px;
 }
 
-#left ul {
+#skills ul {
 	padding-left:0;
 }
 
-#right {
+#experience {
 	display: block;
 	height: auto;
 	width: 100%;
@@ -79,14 +85,14 @@ header p {
 	margin-top: 40px;
 }
 
-#right #experience-wrap {
+#experience #experience-wrap {
 	display:inline;
 	position: relative;
 	width: 100%;
 	left: 7%;
 }
 
-#right #experience-wrap div {
+#experience #experience-wrap div {
 	float: left;
 	display: inline;
 	width: 356px;
@@ -94,21 +100,20 @@ header p {
 }
 
 
-
 .drop-button {
-border: 2px solid #ebebeb;
-border-radius: 4px;
-padding: 5px;
-text-decoration: none;
-color: black;
-cursor: pointer;
-display: block;
-margin: 0 auto;
-background-color: white;
-transition: background-color 1s ease;
--webkit-transition: background-color 1s ease;
--o-transition: background-color 1s ease;
--moz-transition: background-color 1s ease;
+	border: 2px solid #ebebeb;
+	border-radius: 4px;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+	transition: background-color 1s ease;
+	-webkit-transition: background-color 1s ease;
+	-o-transition: background-color 1s ease;
+	-moz-transition: background-color 1s ease;
 }
 
 .drop-button:hover {
@@ -116,13 +121,13 @@ transition: background-color 1s ease;
 	color: white;
 }
 
-#right img {
+#experience img {
 	max-width: 150px;
 	width: 100%;
 	opacity: 1.0;
 }
 
-#right .title {
+#experience .title {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1rem;
 }
@@ -138,12 +143,12 @@ transition: background-color 1s ease;
 }
 
 
-#right ul {
+#experience ul {
 	text-align: left;
 	list-style: disc;
 }
 
-#right ul li {
+#experience ul li {
 	line-height: 2rem;
 }
 
@@ -151,7 +156,7 @@ transition: background-color 1s ease;
 	display:none;
 }
 
-
+/* Examples Styling */
 div#examples {
 display: block;
 text-align: center;
@@ -200,7 +205,32 @@ footer {
 	position: absolute;
 }
 
+/* Contact Styling */
+#contact {
+	text-align: center;
+	position: relative;
+}
 
+.contact {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#contact a:link {
+	color: black;
+	text-decoration: none;
+}
+
+#contact a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	color: #636f6d;
+}
+
+/* Keyframes */
 @-webkit-keyframes opacityHeader {
   0% {
     opacity: 0.3;
@@ -210,25 +240,25 @@ footer {
     }
 }
 
-
+/* Media Queries */
 @media all and (max-width:1068px) {
 
 
-	#right #experience-wrap div{
+	#experience #experience-wrap div{
 		float: none;
 		width: 100%;
 	}
 
-	#right ul {
+	#experience ul {
 		list-style: none;
 		text-align: center;
 	}
 
-	#right #experience-wrap {
+	#experience #experience-wrap {
 		left: 0%;
 	}
 
-	#left {
+	#skills {
 		margin-top: 120px;
 	}
 }
