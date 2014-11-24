@@ -21,6 +21,15 @@ ul {
 	list-style: none;
 }
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
 
 #container {
 	width: 100%;
@@ -66,10 +75,12 @@ header p {
 	max-width: 150px;
 	width: 100%;
 	opacity: 1.0;
+	-webkit-filter: grayscale(1);
+  	filter: grayscale(1);
 	transition: opacity 0.5s ease;
-	-webkit-transition: opacity 0.5s ease;
-	-o-transition: opacity 0.5s ease;
-	-moz-transition: opacity 0.5s ease;
+	-webkit-transition: filter 0.5s ease;
+	-o-transition: filter 0.5s ease;
+	-moz-transition: filter 0.5s ease;
 }
 
 #right .title {
@@ -77,16 +88,19 @@ header p {
 	font-size: 1rem;
 }
 
-.bc {
-	margin-bottom: 48px;
+#barker {
+	top: 48px;
+	position: relative;
 }
 
-.shp {
-	margin-bottom: 90px;
+#shopatron {
+	top: 90px;
+	position: relative;
 }
 
 #right img:hover{
-	opacity:0.3;
+	-webkit-filter: grayscale(0);
+  	filter: grayscale(0);
 }
 
 #right div {
@@ -102,6 +116,17 @@ header p {
 
 #right ul li {
 	line-height: 2rem;
+}
+
+
+footer {
+	height: 50px;
+	background-color: #929A99;
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
+	width: 100%;
+	position: absolute;
 }
 
 @-webkit-keyframes opacityHeader {
