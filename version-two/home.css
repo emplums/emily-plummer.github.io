@@ -46,11 +46,12 @@ header {
 }
 
 header #text {
-	position: absolute;
+	position: relative;
+	display: inline-block;
+	text-align: center;
 	color:white;
-	margin-left: 31%;
 	margin-top: 270px;
-	line-height: 2rem;
+	line-height: 3rem;
 }
 
 header p {
@@ -60,23 +61,33 @@ header p {
 
 
 #left {
-	display: inline;
+	display: block;
 	text-align: center;
+}
+
+#left ul {
+	padding-left:0;
 }
 
 #right {
-	float: left;
-	display: inline;
-	text-align: center;
-	margin-left: 40px;
-	height: 700px;
+	display: block;
+	height: auto;
 	width: 100%;
+	text-align: center;
 }
 
-#experience-wrap {
+#right #experience-wrap {
 	display:inline;
-	text-align: center;
+	position: relative;
 	width: 100%;
+	left: 7%;
+}
+
+#right #experience-wrap div {
+	float: left;
+	display: inline;
+	width: 356px;
+	margin-bottom: 50px;
 }
 
 
@@ -106,12 +117,6 @@ transition: background-color 1s ease;
 	max-width: 150px;
 	width: 100%;
 	opacity: 1.0;
-	-webkit-filter: grayscale(1);
-  	filter: grayscale(1);
-	transition: filter 0.5s ease;
-	-webkit-transition: filter 0.5s ease;
-	-o-transition: filter 0.5s ease;
-	-moz-transition: filter 0.5s ease;
 }
 
 #right .title {
@@ -129,16 +134,7 @@ transition: background-color 1s ease;
 	position: relative;
 }
 
-#right img:hover{
-	-webkit-filter: grayscale(0);
-  	filter: grayscale(0);
-}
 
-#right div {
-	float: left;
-	display: inline;
-	width: 356px;
-	}
 
 #right ul {
 	text-align: left;
@@ -156,7 +152,6 @@ footer {
 	height: 50px;
 	background-color: #929A99;
 	color: white;
-	padding-left: 15px;
 	padding-top: 15px;
 	width: 100%;
 	position: absolute;
@@ -170,4 +165,14 @@ footer {
     opacity: 1.0;
     }
 
+
+@media all and (max-width: 1098px) {
+	#shopatron {
+		left: -14%;
+	}
+
+	#right div {
+		width: 410px;
+	}
+}
 
