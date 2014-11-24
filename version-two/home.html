@@ -8,7 +8,8 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans+Condensed:300|Megrim' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="home.css" type="text/css" charset="utf-8" />
 		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="home.js"></script>
 		<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -58,12 +59,14 @@ $(function() {
     </div>
     <div id="right">
       <h2>Experience</h2>
+      <span id="experience-wrap">
       <div id="e-e">
       <img src="experts.jpg" alt="experts-exchange">
       <p class="title"><strong>Experts Exchange</strong></p>
       <p class="date">September 2014 - Present</p>
       <p class="sub-sub-headline">Front End Developer Intern</p>
-      <ul class="experience-work">
+      <button class="drop-button drop-button-1">More Details</button>
+      <ul class="experience-work experience-work-1">
         <li>Develop and edit pages through internally created CMS</li>
         <li>Fix bugs</li>
 <li>Audit site for responsive issues</li>
@@ -77,12 +80,12 @@ $(function() {
       <p class="title"><strong>Barker Creek Publishing</strong></p>
       <p class="date">April 2010 - August 2014 (intermittent summers)</p>
       <p class="sub-sub-headline">Marketing Representative & Web Developer</p>
-      <ul class="experience-work">
+      <button class="drop-button drop-button-2">More Details</button>
+      <ul class="experience-work experience-work-2">
         <li>Developed and styled <a href="http://stores.ebay.com/barkercreekpublishing/">custom eBay store</a></li>
         <li>Managed multiple eCommerce channels (Online Store, Amazon, eBay)</li>
         <li>Organized online marketing campaigns through the use of blogs, email, PPC, and social media</li>
         <li>Analyzed site health using Google Analytics and Google Webmaster Tools</li>
-        <li>Trained employees to continue marketing efforts during the school year</li>
       </ul>
     </div>
     <div id="shopatron">
@@ -90,15 +93,15 @@ $(function() {
         <p class="title"><strong>Shopatron</strong></p>
       <p class="date">August 2013 - April 2014</p>
       <p class="sub-sub-headline">Online Marketing Associate</p>
-      <ul class="experience-work">
+      <button class="drop-button drop-button-3">More Details</button>
+      <ul class="experience-work experience-work-3">
         <li>Managed several large brands’ online presence to drive traffic & sales to online store while building brand awareness using data driven techniques</li>
         <li>Made technical SEO fixes such as meta data optimization, UX optimization, and implementing internal linking structures</li>
-        <li>Performed SEO & Brand Audits for clients</li>
-        <li>Restructured and refined a $20,000/day budget campaign in Google AdWords</li>
         <li>Built custom reports using Google Analytics</li>
       </ul>
     </div>
-    </div>
+  </span>
+</div>
 </div>
 <footer>
     <p>Emily Plummer &copy; 2014</p>

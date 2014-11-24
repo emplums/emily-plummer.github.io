@@ -9,7 +9,7 @@ h2 {
 	font-weight: 500;
 }
 
-p, li {
+p, li, a {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -66,9 +66,38 @@ header p {
 
 #right {
 	float: left;
-	display:inline;
+	display: inline;
 	text-align: center;
 	margin-left: 40px;
+	height: 700px;
+	width: 100%;
+}
+
+#experience-wrap {
+	display:inline;
+	text-align: center;
+	width: 100%;
+}
+
+.drop-button {
+border: 2px solid #ebebeb;
+border-radius: 4px;
+padding: 5px;
+text-decoration: none;
+color: black;
+cursor: pointer;
+display: block;
+margin: 0 auto;
+background-color: white;
+transition: background-color 1s ease;
+-webkit-transition: background-color 1s ease;
+-o-transition: background-color 1s ease;
+-moz-transition: background-color 1s ease;
+}
+
+.drop-button:hover {
+	background-color: #ebebeb;
+	color: white;
 }
 
 #right img {
@@ -77,7 +106,7 @@ header p {
 	opacity: 1.0;
 	-webkit-filter: grayscale(1);
   	filter: grayscale(1);
-	transition: opacity 0.5s ease;
+	transition: filter 0.5s ease;
 	-webkit-transition: filter 0.5s ease;
 	-o-transition: filter 0.5s ease;
 	-moz-transition: filter 0.5s ease;
@@ -105,8 +134,8 @@ header p {
 
 #right div {
 	float: left;
-	display:inline;
-	width: 30%;
+	display: inline;
+	width: 356px;
 	}
 
 #right ul {
@@ -118,7 +147,9 @@ header p {
 	line-height: 2rem;
 }
 
-
+.experience-work {
+	display:none;
+}
 footer {
 	height: 50px;
 	background-color: #929A99;
