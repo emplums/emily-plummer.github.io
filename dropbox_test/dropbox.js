@@ -21,6 +21,8 @@
 	});
 
 
+
+
 //Video
 $(window).load(function playVideo(){
 	var video = document.getElementById("videoPlayer");
