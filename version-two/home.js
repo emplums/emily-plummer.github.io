@@ -13,6 +13,16 @@ $( ".drop-button-2" ).click(function() {
 });
 });
 
+
+$(document).ready(function() {
+$( ".drop-button-3" ).click(function() {
+  $( ".experience-work-3" ).toggle( "slow", function() {
+  	$(".experience-work-3").css("visibility", "visible");
+  });
+});
+});
+
+
 $(document).ready(function() {
 $( ".after" ).click(function() {
 	$(".after").hide();
