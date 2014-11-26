@@ -132,6 +132,10 @@ header p {
 	font-size: 1rem;
 }
 
+#e-e {
+	position: relative;
+}
+
 #barker {
 	top: 48px;
 	position: relative;
