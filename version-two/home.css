@@ -92,8 +92,7 @@ header p {
 }
 
 #experience #experience-wrap div {
-	float: left;
-	display: inline;
+	display: inline-block;
 	width: 356px;
 	margin-bottom: 50px;
 }
