@@ -1,0 +1,503 @@
+body {
+  margin: 0 auto; }
+
+p, a {
+  font-family: "Open Sans", sans-serif;
+  color: #8899A7; }
+
+a:link {
+  text-decoration: none; }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 37px;
+  color: white;
+  font-weight: normal; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color: #8899A7;
+  text-align: center;
+  font-weight: normal; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+a.button {
+  text-align: center;
+  display: block;
+  border: 1px solid #007EE5;
+  border-radius: 3px;
+  width: 9.52381%;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #007EE5; }
+
+/* Hero Styling */
+#hero {
+  background-color: #007EE5;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden; }
+  #hero .layer {
+    background-image: url("../../assets/dropbox-for-business-files.png");
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    z-index: -1;
+    top: 0;
+    opacity: 0.0;
+    -webkit-animation: layer-hero 2s ease-in-out 1s forwards;
+    -moz-animation: layer-hero 2s ease-in-out 1s forwards;
+    -o-animation: layer-hero 2s ease-in-out 1s forwards;
+    animation: layer-hero 2s ease-in-out 1s forwards; }
+  #hero .header-text {
+    display: block;
+    text-align: center;
+    z-index: 999999;
+    margin: 0 auto; }
+    #hero .header-text .button {
+      background-color: white;
+      color: #007EE5;
+      border: 2px solid #266cb9;
+      border-radius: 5px;
+      padding: 14px;
+      margin-bottom: 20px;
+      width: 24.28571%;
+      cursor: pointer; }
+    #hero .header-text .button:hover {
+      background-color: #f0f7fd; }
+  #hero h1 {
+    margin-top: 75px; }
+  #hero ul {
+    line-height: 200%; }
+  #hero img {
+    width: 35%;
+    margin-bottom: 20px; }
+  #hero p {
+    color: white;
+    display: inline-block;
+    margin: 0 auto; }
+  #hero a {
+    color: white; }
+  #hero a:hover {
+    color: #4C545A;
+    border-bottom: #8899A7; }
+  #hero #copy {
+    line-height: 30px;
+    width: 52.38095%; }
+  #hero #last {
+    border-bottom: 1px solid white; }
+
+/* Nav Styling */
+.desktop {
+  text-align: left;
+  left: 0;
+  width: 152px;
+  position: absolute;
+  top: 50px;
+  margin-right: 20px; }
+  .desktop ul {
+    list-style: none; }
+    .desktop ul a {
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      color: white; }
+
+.mobile-menu {
+  text-align: center;
+  width: 85%;
+  visibility: hidden;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  .mobile-menu ul {
+    list-style: none; }
+  .mobile-menu li {
+    display: inline;
+    margin-right: 10px; }
+  .mobile-menu li a {
+    color: white; }
+  .mobile-menu li a:hover {
+    color: #4C545A; }
+
+/* Why Dropbox Styling */
+#why-dropbox {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: 1px solid #8899A7; }
+  #why-dropbox div {
+    display: inline-block;
+    width: 29.52381%;
+    margin-right: 30px; }
+  #why-dropbox #block-one.animate {
+    -webkit-animation: slideIn 3s ease-in-out 0s forwards;
+    -o-animation: slideIn 3s ease-in-out 0s forwards;
+    -moz-animation: slideIn 3s ease-in-out 0s forwards;
+    animation: slideIn 3s ease-in-out 0s forwards; }
+  #why-dropbox #block-two.animate {
+    -webkit-animation: slideIn 3s ease-in-out 1s forwards;
+    -o-animation: slideIn 3s ease-in-out 1s forwards;
+    -moz-animation: slideIn 3s ease-in-out 1s forwards;
+    animation: slideIn 3s ease-in-out 1s forwards; }
+  #why-dropbox #block-three.animate {
+    -webkit-animation: slideIn 3s ease-in-out 2s forwards;
+    -o-animation: slideIn 3s ease-in-out 2s forwards;
+    -moz-animation: slideIn 3s ease-in-out 2s forwards;
+    animation: slideIn 3s ease-in-out 2s forwards; }
+  #why-dropbox .blocks {
+    overflow: hidden; }
+  #why-dropbox .button {
+    margin-bottom: 40px; }
+  #why-dropbox .button:hover {
+    background-color: #f0f7fd; }
+
+/* What Can Dropbox Do Styling */
+#what-can-dropbox {
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  display: block; }
+  #what-can-dropbox .slideshow-wrap {
+    margin-bottom: 60px; }
+  #what-can-dropbox p {
+    width: 29.52381%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  #what-can-dropbox h2 {
+    width: 29.52381%;
+    margin: 0 auto;
+    margin-bottom: 40px; }
+  #what-can-dropbox #slider {
+    list-style: none;
+    position: relative;
+    width: 96%;
+    height: 325px;
+    max-width: 540px;
+    margin: 0 auto;
+    display: inline-block; }
+  #what-can-dropbox #slider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    max-width: 775px;
+    max-height: 400px; }
+  #what-can-dropbox #control-right {
+    display: inline;
+    top: -150px;
+    left: 50px;
+    position: relative;
+    cursor: pointer; }
+  #what-can-dropbox #control-left {
+    display: inline;
+    left: -50px;
+    top: -150px;
+    position: relative;
+    cursor: pointer; }
+  #what-can-dropbox #dots {
+    list-style: none;
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%; }
+  #what-can-dropbox #dots ul {
+    margin-top: 10px; }
+  #what-can-dropbox #dots li {
+    display: inline-block;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border: 3px solid #007EE5;
+    background: #007EE5;
+    cursor: pointer; }
+  #what-can-dropbox #dots li.active {
+    background: #8899A7;
+    border: 3px solid #8899A7; }
+  #what-can-dropbox .button {
+    margin-bottom: 60px; }
+  #what-can-dropbox .button:hover {
+    background-color: #f0f7fd; }
+
+/* Dropbox Video Styling */
+#dropbox-video {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  background: url("../../assets/video-still.jpg") center center;
+  -webkit-background-size: cover; }
+  #dropbox-video h2 {
+    position: relative;
+    display: inline-block;
+    top: 35px;
+    width: 28.523%; }
+  #dropbox-video .videoPlayer {
+    max-width: 100%;
+    width: 100%;
+    max-height: 500px; }
+  #dropbox-video img.play {
+    display: block;
+    position: relative;
+    top: 85px;
+    max-width: 100%;
+    margin: 0 auto;
+    cursor: pointer; }
+  #dropbox-video .still {
+    width: auto;
+    height: 100%;
+    display: none; }
+
+video {
+  max-width: 100%;
+  display: none; }
+
+/* Get Your Team Styling */
+#get-your-team {
+  height: 225px;
+  width: 100%;
+  border-bottom: 1px solid #8899A7;
+  text-align: center; }
+  #get-your-team .buttonTwo {
+    display: block;
+    margin: 0 auto;
+    background-color: #007EE5;
+    color: white;
+    padding: 5px;
+    width: 22.85714%;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #888888;
+    line-height: 35px; }
+    #get-your-team .buttonTwo a {
+      text-decoration: none; }
+  #get-your-team .buttonTwo:hover {
+    background-color: #3398ea; }
+  #get-your-team h2 {
+    padding-top: 15px; }
+
+/* Footer Styling */
+footer {
+  height: 300px;
+  width: 100%;
+  text-align: left; }
+  footer ul {
+    display: inline-block;
+    width: 8.09524%;
+    margin-right: 30px;
+    list-style: none;
+    vertical-align: top; }
+    footer ul li a {
+      font-size: 13px;
+      color: #4C545A; }
+    footer ul .header {
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 0%;
+      color: #4C545A; }
+    footer ul a:hover {
+      color: #8899A7; }
+  footer #language {
+    float: right;
+    right: 44px;
+    position: relative;
+    width: 75px;
+    height: 32px;
+    top: 15px; }
+  footer #language p:before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    content: "\f0ac";
+    display: inline;
+    margin-right: 5px; }
+  footer #language p:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f106";
+    display: inline;
+    position: relative;
+    left: 5px; }
+  footer #language p {
+    display: inline; }
+
+/* Animations */
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(-150%);
+    opacity: 0;
+    width: 100px;
+    -webkit-filter: blur(3px); }
+  50% {
+    -webkit-transform: translateX(8%);
+    opacity: 0.5; }
+  65% {
+    -webkit-transform: translateX(-4%);
+    opacity: 0.65; }
+  80% {
+    -webkit-transform: translateX(4%);
+    opacity: 0.80; }
+  95% {
+    -webkit-transform: translateX(-2%);
+    opacity: 0.95; }
+  100% {
+    -webkit-transform: translateX(0%);
+    opacity: 1.0;
+    width: 210px;
+    -webkit-filter: blur(0px); } }
+@-o-keyframes slideIn {
+  0% {
+    -o-transform: translateX(-150%);
+    opacity: 0;
+    width: 100px;
+    -o-filter: blur(3px); }
+  50% {
+    -o-transform: translateX(8%);
+    opacity: 0.5; }
+  65% {
+    -o-transform: translateX(-4%);
+    opacity: 0.65; }
+  80% {
+    -o-transform: translateX(4%);
+    opacity: 0.80; }
+  95% {
+    -o-transform: translateX(-2%);
+    opacity: 0.95; }
+  100% {
+    -o-transform: translateX(0%);
+    opacity: 1.0;
+    width: 210px;
+    -o-filter: blur(0px); } }
+@-moz-keyframes slideIn {
+  0% {
+    -moz-transform: translateX(-150%);
+    opacity: 0;
+    width: 100px;
+    -moz-filter: blur(3px); }
+  50% {
+    -moz-transform: translateX(8%);
+    opacity: 0.5; }
+  65% {
+    -moz-transform: translateX(-4%);
+    opacity: 0.65; }
+  80% {
+    -moz-transform: translateX(4%);
+    opacity: 0.80; }
+  95% {
+    -moz-transform: translateX(-2%);
+    opacity: 0.95; }
+  100% {
+    -moz-transform: translateX(0%);
+    opacity: 1.0;
+    width: 210px;
+    -moz-filter: blur(0px); } }
+@keyframes slideIn {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0;
+    width: 100px;
+    filter: blur(3px); }
+  50% {
+    transform: translateX(8%);
+    opacity: 0.5; }
+  65% {
+    transform: translateX(-4%);
+    opacity: 0.65; }
+  80% {
+    transform: translateX(4%);
+    opacity: 0.80; }
+  95% {
+    transform: translateX(-2%);
+    opacity: 0.95; }
+  100% {
+    transform: translateX(0%);
+    opacity: 1.0;
+    width: 210px;
+    filter: blur(0px); } }
+@-webkit-keyframes layer-hero {
+  0% {
+    -webkit-transform: translateY(100%);
+    opacity: 0.0; }
+  100% {
+    -webkit-transform: translateY(0%);
+    opacity: 1.0; } }
+@-o-keyframes layer-hero {
+  0% {
+    opacity: 0.0;
+    -o-transform: translateY(100%); }
+  100% {
+    -o-transform: translateY(0%);
+    opacity: 1.0; } }
+@-moz-keyframes layer-hero {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(100%); }
+  100% {
+    -moz-transform: translateY(0%);
+    opacity: 1.0; } }
+@keyframes layer-hero {
+  0% {
+    opacity: 0;
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(0%);
+    opacity: 1.0; } }
+/* Media Queries */
+@media all and (max-width: 685px) {
+  .mobile-menu {
+    visibility: visible; }
+
+  .navButton {
+    visibility: hidden; }
+
+  nav {
+    display: none; }
+
+  #why-dropbox .blocks {
+    display: block;
+    margin: 0 auto;
+    width: 55%; }
+
+  a.button {
+    width: 16.523%; }
+
+  #what-can-dropbox h2 {
+    width: 65.524%; }
+
+  #what-can-dropbox p {
+    width: 70.524%; }
+
+  #what-can-dropbox a.button {
+    width: 23.524%; }
+
+  #dropbox-video h2 {
+    width: 65.524%; }
+
+  #hero #copy {
+    width: 70.3%; }
+
+  #hero {
+    padding-right: 10px;
+    padding-left: 10px; } }
+
+  @media all and (max-width: 445px) {
+    #what-can-dropbox #slider {
+      height: 206px;
+    }
+  }
+
+/*# sourceMappingURL=styles.css.map */
