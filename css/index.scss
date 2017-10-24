@@ -1,6 +1,3 @@
----
----
-
 @mixin column {
 	padding: 40px;
 	box-sizing: border-box;
@@ -8,29 +5,57 @@
 	height:100vh;
 }
 
-@mixin contact-icons {
-	content: '';
-	width: 50px;
-	background-size: contain;
-	display: inline-block;
-	vertical-align: middle;
-	margin: 20px 20px 20px 0;
+.contact-icons {
+  display: block;
+	font-size: 1.4em;
+  margin-right: 20px;
+}
+
+.hero {
+  background: linear-gradient(269deg, #d7a9ec, #eca9c9, #a9ecde, #e7eca9);
+  background-size: 800% 800%;
+  height: 50vh;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: rainbow 30s ease infinite;
+  -moz-animation: rainbow 30s ease infinite;
+  animation: rainbow 30s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 body {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 100;
-	margin: 0;
+  border: 4px solid hotpink;
+  margin: 10px;
+  height: 100%;
 }
-h1 {
+.title {
 	font-size: 55px;
+  margin: 0;
 }
 
-
-a:link {
-	text-decoration: none;
-	font-weight: 200;
-	color: inherit;
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .minor {
@@ -49,36 +74,65 @@ a:link {
 	margin: 40px 0;
 }
 
-.col-2 {
-	@include column;
-	color: black;
-	width: 35%;
+.twitter:before {
+  background-image: url("../twitter.png");
+  height: 20px;
+  content: '';
+	width: 25px;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
 }
 
-.contact {
-	display: block;
-	font-size: 1.4em;
-	&.twitter:before {
-		@include contact-icons;
-		background-image: url("../twitter.png");
-		height: 41px;
-	}
-	&.github:before {
-		height: 50px;
-		@include contact-icons;
-		background-image: url("../github.png");
-	}
-	&.email:before {
-		@include contact-icons;
-		background-image: url("../email.png");
-		height: 50px;
-	}
+.github:before {
+  height: 20px;
+  background-image: url("../github.png");
+  content: '';
+	width: 19px;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.email:before {
+  background-image: url("../email.png");
+  height: 20px;
+  content: '';
+	width: 20px;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
 }
 
 @media (max-width: 768px) {
-	.col-1, .col-2 {
+	.col-1 {
 		width: 100%;
 		float: initial;
 		height: 100%;
 	}
+}
+
+.footer {
+  height: 20vh;
+  text-align: center;
+}
+
+.footer a, .footer a:visited {
+  color: black;
+}
+
+.current {
+  font-weight: 600;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  border: 4px solid hotpink;
+}
+
+a, a:visited {
+  color: hotpink;
+  font-weight: 100;
+  text-decoration: none;
 }
