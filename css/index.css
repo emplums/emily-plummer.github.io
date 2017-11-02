@@ -86,12 +86,6 @@ body {
   margin: 0;
 }
 
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .minor {
     position: relative;
     margin-top: 80px;
@@ -149,8 +143,9 @@ body {
 }
 
 .footer {
-  height: 20vh;
   text-align: center;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .footer a, .footer a:visited {
